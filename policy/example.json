@@ -1,1 +1,9 @@
-{}
+{
+  "allowedActions": ["refund", "spend", "notify"],
+  "currency": "AUD",
+  "autoApproveBelow": 500,
+  "maxCostPerAction": 2000,
+  "maxCostPerPlan": 3000,
+  "dailySpendCap": 5000,
+  "blockedCounterparts": ["blocked.example", "denied-vendor.example"]
+}

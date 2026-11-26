@@ -1,0 +1,26 @@
+{
+  "name": "governed-agent-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "A small, runnable demo of an operations agent that must plan, simulate and (when needed) get approval before it acts.",
+  "scripts": {
+    "preview": "tsx src/cli.ts preview",
+    "simulate": "tsx src/cli.ts simulate",
+    "run": "tsx src/cli.ts run",
+    "audit": "tsx src/cli.ts audit",
+    "mcp": "tsx src/mcp-server.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
